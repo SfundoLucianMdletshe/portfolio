@@ -29,12 +29,8 @@ const checkPalindrome = () => {
         answer = inputText.value + ' is not a palindrome';
     }
 
-    // Display result on p
-    const pTag = document.createElement('p');
-    pTag.className = 'user-input';
-    pTag.innerHTML = answer;
-    
-    result.appendChild(pTag);
+    // Display result
+    result.innerText = answer;
 
     // Show the result.
     result.classList.remove('hide');
