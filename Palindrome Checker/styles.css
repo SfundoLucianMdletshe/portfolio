@@ -47,6 +47,10 @@ button:hover {
   cursor: pointer;
 }
 
+#result {
+  text-align: center;
+}
+
 #me {
   margin-top: 130px;
   font-size: 14px;
