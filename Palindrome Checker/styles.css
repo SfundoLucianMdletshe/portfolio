@@ -43,11 +43,8 @@ button {
   margin-bottom: 20px;
 }
 
-#result {
-  width: 400px;
-  height: 30px;
-  margin: 0 auto;
-  color: white;
+button:hover {
+  cursor: pointer;
 }
 
 #me {
