@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #eee;
+  background-color: grey;
   font-family: 'Lato', sans-serif;
 }
 
@@ -50,16 +50,18 @@ header {
   position: fixed;
   top: 0;
   min-height: 75px;
+  width: 100%;
   padding: 0px 20px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #eee;
+  background-color: white;
 }
 
 @media (max-width: 600px) {
   header {
     flex-wrap: wrap;
+    min-height: 30px;
   }
 }
 
@@ -151,11 +153,11 @@ nav > ul {
   height: 30px;
   margin: 15px 0;
   border: 0;
-  background-color: #f1c40f;
+  background-color: turquoise;
 }
 
 #hero input[type='submit']:hover {
-  background-color: orange;
+  background-color: teal;
   transition: background-color 1s;
 }
 
@@ -175,7 +177,7 @@ nav > ul {
   justify-content: center;
   height: 125px;
   width: 20vw;
-  color: darkorange;
+  color: turquoise;
 }
 
 @media (max-width: 550px) {
@@ -238,7 +240,7 @@ nav > ul {
 }
 
 .product > .level {
-  background-color: #ddd;
+  background-color: lightgrey;
   color: black;
   padding: 15px 0;
   width: 100%;
@@ -261,12 +263,12 @@ nav > ul {
 .product > button {
   border: 0;
   margin: 15px 0;
-  background-color: #f1c40f;
+  background-color: turquoise;
   font-weight: 400;
 }
 
 .product > button:hover {
-  background-color: orange;
+  background-color: teal;
   transition: background-color 1s;
 }
 
@@ -284,7 +286,7 @@ nav > ul {
 
 footer {
   margin-top: 30px;
-  background-color: #ddd;
+  background-color: whitesmoke;
   padding: 20px;
 }
 
