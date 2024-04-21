@@ -17,7 +17,8 @@ body {
   
 h1 {
   margin-top: 25px;
-  color: rgba(0, 0, 0, 0.7)
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 50px;
 }
   
 #number {
