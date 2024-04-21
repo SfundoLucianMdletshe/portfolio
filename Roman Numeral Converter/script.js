@@ -7,6 +7,8 @@ const isValid = int => {
     output.textContent = 'Please enter a valid number';
   } else if (parseInt(int, 10) < 1) {
     output.textContent = 'Please enter a number greater than or equal to 1';
+  } else if (parseInt(int, 10) > 10000) {
+    output.textContent = 'Please enter a number less than or equal to 10 000';
   } else {
     return true;
   }
