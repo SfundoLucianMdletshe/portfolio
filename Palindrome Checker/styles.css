@@ -12,11 +12,7 @@ body {
   overflow: hidden;
   font-size: 20px;
   display: block;
-}
-
-.container {
   text-align: center;
-  position: center;
 }
 
 h1 {
@@ -44,13 +40,8 @@ button {
   height: 25px;
   border-radius: 20px;
   border: none;
+  margin-bottom: 20px;
 }
-
-hr {
-    clear: both;
-    visibility: hidden;
-}
-
 
 #result {
   width: 400px;
