@@ -1,0 +1,70 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-image: url(https://wallpapers.com/images/high/cool-dark-night-with-bright-moon-fhgujhftozmeo6gm.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(241, 241, 241);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  overflow: hidden;
+  font-size: 20px;
+  display: block;
+}
+
+.container {
+  text-align: center;
+  position: center;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+#text {
+  border: hidden;
+}
+
+.hide {
+    display: none;
+  }
+
+#text-input {
+  border-radius: 35px;
+  margin-bottom: 5px;
+  border: none;
+  height: 30px;
+  width: 250px;
+  text-align: center;
+  font-size: 25px;
+  margin: 10px;
+}
+
+button {
+  width: 120px;
+  height: 25px;
+  border-radius: 20px;
+  border: none;
+}
+
+hr {
+    clear: both;
+    visibility: hidden;
+}
+
+
+#result {
+  width: 400px;
+  height: 30px;
+  margin: 0 auto;
+  color: white;
+}
+
+#me {
+  margin-top: 130px;
+  font-size: 14px;
+  text-align: center;
+}

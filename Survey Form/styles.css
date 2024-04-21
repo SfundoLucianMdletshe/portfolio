@@ -1,0 +1,93 @@
+h1, p {
+  margin: 1rem auto;
+  text-align: center;
+  color: rgb(250,100,10);
+}
+
+body {
+  width:100%;
+  background-image: url(https://cdn.24.co.za/files/Cms/General/d/3228/8880a95587d64f809f45b0c18d1236b6.jpg);
+  font-family: sans-serif;
+  font-size: 17px;
+}
+
+.container {
+  width: 100%;
+  margin: 3.125rem auto 0 auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 620px;
+  }
+}
+
+form {
+  width: 50%;
+  margin: 0 auto;
+  max-width:1000px;
+  min-width:500px;
+  padding: 10px;
+}
+
+@media (min-width: 480px) {
+  form {
+    padding: 2.5rem;
+  }
+}
+
+fieldset {
+  border: none;
+  background-color:rgba(2, 67, 117,0.5);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+@media (min-width: 490px) {
+  fieldset {
+    padding: 2.5rem;
+  }
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input, select, textarea {
+  margin: 10px 0 0 0;
+  width: 100%;
+  border-radius: 5px;
+}
+
+li {
+  list-style-type:none;
+}
+
+#name, #email, #number, select {
+  height: 2em;
+}
+
+.aligned, input[type="checkbox"] {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+#submit {
+  display: block;
+  width: 60%;
+  margin: 20px auto;
+  height: 30px;
+  font-size: 1.2rem;
+}
+
+#last{
+  margin-top: 10px;
+}

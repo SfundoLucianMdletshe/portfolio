@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Intercape Survey Form</title>
+</head>
+<body>
+  <h1 id="title"> Intercape Survey Form</h1>
+  
+  <p id="description">Help us improve your next ride!</p>
+  <div class="container">
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label" for="name">Name <input id="name" name="name" type="text" required placeholder="Enter your full name" /></label>
+      
+        <label id="email-label" for="email">E-mail<input id="email" name="email" type="email" required placeholder="Enter your e-mail address" /></label>
+        
+        <label id="number-label" for="number">Age<input id="number" name="number" type="number" min="0" max="100" placeholder="Enter your age" /></label>
+        
+        <label>Where were/are you travelling to?
+          <select id="dropdown">
+          <option>(Select one)</option>
+          <option>Eastern Cape</option>
+          <option>Free State</option>
+          <option>Gauteng</option>
+          <option>KwaZulu-Natal</option>
+          <option>Limpopo</option>
+          <option>Mpumalanga</option>
+          <option>Northern Cape</option>
+          <option>North West</option>
+          <option>Western Cape</option>
+          <option>Namibia</option>
+          <option>Botswana</option>
+          <option>Mozambique</option>
+        </select>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Between what times below did you travel at?</legend>
+        <ul>
+            <li><label for="morning"><input class="aligned" id="morning" value="morning" name="time" type="radio" checked  />08:00 - 9:59</label></li>
+        
+        <li><label for="day"><input class="aligned" id="day" value="day" name="time" type="radio" />10:00 - 11:59</label></li>
+      
+        <li><label for="noon"><input class="aligned" id="noon" value="noon" name="time" type="radio" />12:00 - 17:59</label></li>
+        
+        <li><label for="night"><input class="aligned" id="night" value="night" name="time" type="radio" />18:00 - 22:00</label></li>
+        </ul>
+      </fieldset>
+
+      <fieldset>
+        <legend>What would you like us to improve?</legend>
+          <ul>
+            <li><input value="rest" type="checkbox" name="improve" />Number of resting stations</li>
+            <li><input value="tickets" type="checkbox" name="improve" />Selling of tickes</li>
+            <li><input value="buses" type="checkbox" name="improve" />Buses</li>
+            <li><input value="time" type="checkbox" name="improve" />Time management</li>
+            <li><input value="drop-off" type="checkbox" name="improve" />More drop-Off locations</li>
+            <li><input value="pick-up" type="checkbox" name="improve" />More pick-up locations</li>
+        </ul>
+      </fieldset>  
+
+      <fieldset id="last">
+        <label for="comments">Any comments or suggestions?</label>
+        <textarea rows="6" placeholder="Enter you comment..."></textarea>
+      </fieldset> 
+      <input id="submit" type="submit" value="Submit" />
+    </form>
+  </div>
+<body>
+</html>
