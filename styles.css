@@ -176,15 +176,6 @@ img {
   border-radius: 2px;
 }
 
-.code {
-  color: var(--main-gray);
-  transition: color 0.3s ease-out;
-}
-
-.project:hover .code {
-  color: #ff7f50;
-}
-
 .project-image {
   height: calc(100% - 6.8rem);
   width: 100%;
@@ -258,10 +249,6 @@ footer {
 
 footer > p {
   margin: 2rem;
-}
-
-footer i {
-  vertical-align: middle;
 }
 
 @media (max-width: 28.75em) {
