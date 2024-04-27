@@ -65,7 +65,7 @@ const checkValidNumber = input => {
       for (const item of RSA) {
         if (item.num === sanitizedInput) {
           pTag.style.color = 'green';
-          pTag.appendChild(document.createTextNode(input + ' is a telephone number from ' + item.place));
+          pTag.appendChild(document.createTextNode(input + ' is a valid telephone number from ' + item.place));
           found = true;
           break;
         }
