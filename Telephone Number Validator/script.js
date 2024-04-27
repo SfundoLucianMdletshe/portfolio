@@ -49,7 +49,6 @@ const checkValidNumber = input => {
       return;
     }
   
-    // Replace "+27 " or "+27" with "0"
     input = input.replace(/\+?27[\s-]?/, '0');
 
     const phoneRegex = /^(0)?(\d{3})[\s-]?\d{3}[\s-]?\d{4}$/;
