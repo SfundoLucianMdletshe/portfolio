@@ -124,6 +124,7 @@ img {
   background-image: url(programmer.jpg);
   background-position: center;
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .welcome-section > p {
