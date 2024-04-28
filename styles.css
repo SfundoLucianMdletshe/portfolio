@@ -1,8 +1,7 @@
 :root {
   --main-white: #f0f0f0;
-  --main-1: rgb(43, 132, 171);
-  --main-2: rgb(43, 82, 99);
-  --main-gray: rgb(62, 63, 64);
+  --main: rgb(114, 166, 189);
+  --main-dark: rgb(8, 5, 37);
 }
 
 * {
@@ -84,7 +83,7 @@ img {
   top: 0;
   left: 0;
   width: 100%;
-  background: var(--main-1);
+  background: var(--main);
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
   z-index: 10;
 }
@@ -106,12 +105,12 @@ img {
 
 .nav-list a {
   display: block;
-  font-size: 2.2rem;
+  font-size: 2.4rem;
   padding: 2rem;
 }
 
 .nav-list a:hover {
-  background: var(--main-2);
+  background: var(--main-dark);
 }
 
 .welcome-section {
@@ -121,27 +120,30 @@ img {
   align-items: center;
   width: 100%;
   height: 100vh;
-  background-color: #000;
-  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  background-color: var(--main-dark);
+  background-image: url(programmer.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .welcome-section > p {
   font-size: 3rem;
   font-weight: 200;
   font-style: italic;
-  color: var(--main-1);
+  color: var(--main-white);
 }
 
 .projects-section {
   text-align: center;
   padding: 10rem 2rem;
-  background: var(--main-2);
+  background: var(--main);
 }
 
 .projects-section-header {
+  color: var(--main-dark);
   max-width: 640px;
   margin: 0 auto 6rem auto;
-  border-bottom: 0.2rem solid var(--main-white);
+  border-bottom: 0.2rem solid var(--main-dark);
 }
 
 @media (max-width: 28.75em) {
@@ -171,7 +173,7 @@ img {
 }
 
 .project {
-  background: var(--main-gray);
+  background: var(--main-dark);
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   border-radius: 2px;
 }
@@ -202,7 +204,7 @@ img {
   width: 100%;
   height: 80vh;
   padding: 0 2rem;
-  background: var(--main-gray);
+  background: var(--main-dark);
 }
 
 .contact-section-header > h2 {
@@ -243,8 +245,8 @@ footer {
   display: flex;
   justify-content: space-evenly;
   padding: 2rem;
-  background: var(--main-gray);
-  border-top: 4px solid var(--main-1);
+  background: var(--main-dark);
+  border-top: 4px solid var(--main);
 }
 
 footer > p {
