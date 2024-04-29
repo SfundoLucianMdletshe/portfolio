@@ -144,8 +144,9 @@ a {
 
 @media screen and (max-width: 480px) {
   .welcome-section {
-    box-shadow: 5px 50px 10px 5px black inset,
-    -5px -10px 10px -5px black inset;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 
