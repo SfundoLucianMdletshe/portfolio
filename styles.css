@@ -144,10 +144,9 @@ a {
 
 @media screen and (max-width: 500px) {
   .welcome-section {
-    background-position: center;
+    background-position: center top 20px;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 4rem;
   }
 }
 
