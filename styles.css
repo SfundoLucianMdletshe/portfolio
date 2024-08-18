@@ -135,8 +135,8 @@ a {
 
 @media screen and (max-width: 600px) {
   .welcome-section {
-    box-shadow: 5px 80px 25px 20px black inset,
-    -5px -120px 20px -20px black inset;
+    box-shadow: 5px 50px 25px 20px black inset,
+    -5px -100px 20px -20px black inset;
     margin-top: -3.8rem;
   }
 }
@@ -164,6 +164,7 @@ a {
   padding: 8rem 2rem;
   max-width: 100%;
   margin: 0 auto;
+  padding-top: 0;
 }
 
 .background h2 {
@@ -182,6 +183,7 @@ a {
   .background {
     padding: 6rem 1rem;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    padding-top: 0;
   }
   
   .background h2 {
@@ -197,6 +199,7 @@ a {
   .background {
     padding: 4rem 1rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding-top: 0;
   }
   
   .background h2 {
@@ -211,6 +214,7 @@ a {
 @media screen and (max-width: 500px) {
   .background {
     padding: 3rem 1rem;
+    padding-top: 0;
   }
   
   .background h2 {
